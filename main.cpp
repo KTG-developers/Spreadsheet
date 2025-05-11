@@ -28,7 +28,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
     HWND hWnd = CreateWindowEx(
         0, CLASS_NAME, "Hello, SP",
         WS_OVERLAPPEDWINDOW, CW_USEDEFAULT, CW_USEDEFAULT,
-        500, 300, NULL, NULL, hInstance, NULL
+        1200, 800, NULL, NULL, hInstance, NULL
     );
 
     if (hWnd == NULL) {

@@ -1,2 +1,2 @@
-g++ main.cpp -o spreadsheet
+g++ main.cpp window/ui.cpp -o spreadsheet
 pause
